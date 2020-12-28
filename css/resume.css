@@ -1,0 +1,65 @@
+.resume-container{
+    margin-top: 40px;
+}
+
+.resume-title{
+    width: fit-content;
+    padding: 5px;
+    border-bottom: 1px solid var(--dark-color);
+    color: var(--dark-color);
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.resume-subtitle{
+    color: var(--dark-color);
+    margin-top: 25px;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.resume-container ul{
+    margin-top: 25px;
+    color: var(--dark-color);
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.resume-container ul li{
+    margin-bottom: 10px;
+    font-weight: lighter;
+    letter-spacing: .2px;
+    line-height: 1.6;
+}
+
+.resume-container ul li:last-child{
+    margin-bottom: 0;
+}
+
+@media(max-width: 900px){
+    .resume-title{
+        font-size: 1.6rem;
+    }
+
+    .resume-subtitle{
+        font-size: 1.2rem;
+    }
+    
+    .resume-container ul{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 550px){
+    .resume-title{
+        font-size: 1.2rem;
+    }
+
+    .resume-subtitle{
+        font-size: .9rem;
+    }
+    
+    .resume-container ul{
+        font-size: .8rem;
+    }
+}

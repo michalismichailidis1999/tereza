@@ -1,0 +1,255 @@
+@media(max-width: 1300px){
+    .services-display{
+        margin-top: 100px;
+    }
+
+    .services-display h1{
+        font-size: 2.2rem;
+    }
+    
+    .services-display .lines{
+        top: 40px;
+    }
+
+    .services-list li{
+        font-size: 1.1rem;
+    }
+    
+    .services-sublist{
+        padding: 25px 70px;
+        font-size: 1.1rem;
+    }
+}
+
+@media(max-width: 1125px){
+    .img-container img{
+        max-width: 350px;
+    }
+
+    .service-container h2{
+        font-size: 1.4rem;
+    }
+    
+    .service-container h2 img{
+        width: 30px;
+    }
+    
+    .service-container ul li{
+        font-size: .95rem;
+    }
+    
+    .service-container ul li p {
+        max-width: 350px;
+    }
+}
+
+@media(max-width: 1025px){
+    .services-display{
+        margin-top: 80px;
+    }
+
+    .services-display h1{
+        font-size: 1.8rem;
+    }
+
+    .services-display .lines{
+        top: 37px;
+    }
+}
+@media(max-width: 950px){
+    .services-list{
+        margin-right: 50px;
+    }
+
+    .services-list li{
+        font-size: .9rem;
+    }
+    
+    .services-sublist{
+        padding: 20px 50px;
+        font-size: .9rem;
+    }
+
+    .img-container img{
+        max-width: 250px;
+    }
+
+    .service-container h2{
+        font-size: 1.1rem;
+    }
+    
+    .service-container h2 img{
+        width: 25px;
+    }
+    
+    .service-container ul li{
+        font-size: .85rem;
+    }
+    
+    .service-container ul li p {
+        max-width: 300px;
+    }
+}
+
+@media(max-width: 730px){
+    .services-display h1{
+        font-size: 1.4rem;
+    }
+
+    .services-display .lines{
+        top: 37px;
+    }
+
+    .my-services{
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .services-list{
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .services-list li{
+        font-size: 1.1rem;
+    }
+    
+    .services-sublist{
+        padding: 20px 50px;
+        font-size: 1.1rem;
+    }
+}
+
+@media(max-width: 705px){
+    .img-container{
+        display: none;
+    }
+
+    .service-container h2{
+        font-size: 1.5rem;
+    }
+    
+    .service-container h2 img{
+        width: 30px;
+    }
+    
+    .service-container ul li{
+        font-size: 1.05rem;
+    }
+    
+    .service-container ul li p {
+        max-width: 400px;
+    }
+}
+
+@media(max-width: 540px){
+    .services-list li{
+        font-size: 0.8rem;
+    }
+    
+    .services-sublist{
+        padding: 15px 30px;
+        font-size: 0.8rem;
+    }
+    
+    .service-container h2{
+        font-size: 1.2rem;
+    }
+    
+    .service-container h2 img{
+        width: 25px;
+    }
+    
+    .service-container ul li{
+        font-size: .8rem;
+    }
+    
+    .service-container ul li p {
+        max-width: 300px;
+    }
+}
+
+@media(max-width: 530px){
+    .services-display{
+        margin-top: 40px;
+    }
+
+    .services-display h1{
+        font-size: 1rem;
+        padding: 15px;
+    }
+
+    .services-display .lines{
+        top: 22px;
+    }
+    
+    .services-display .line{
+        height: 5px;
+    }
+
+    .services-display .small{
+        margin-top: 5px;
+    }
+}
+
+@media(max-width: 445px){
+    .service-container h2{
+        max-width: 280px;
+    }
+
+    .icon-img-1{
+        position: relative;
+        margin: 0;
+        left: -35px;
+    }
+
+    .icon-img-2{
+        position: relative;
+        margin: 0;
+        left: -45px;
+    }
+}
+
+@media(max-width: 415px){
+    .services-sublist li{
+        max-width: 200px;
+    }
+}
+
+@media(max-width:380px){
+    .service-container h2{
+        font-size: 1rem;
+        max-width: 230px;
+    }
+    
+    .service-container h2 img{
+        width: 20px;
+    }
+    
+    .service-container ul li{
+        font-size: .75rem;
+    }
+    
+    .service-container ul li p {
+        max-width: 230px;
+    }
+
+    .icon-img-1{
+        left: -20px;
+    }
+
+    .icon-img-2{
+        left: -30px;
+    }
+}
+
+@media(max-width: 330px){    
+    .services-list li{
+        font-size: 0.7rem;
+    }
+    
+    .services-sublist{
+        padding: 15px 30px;
+        font-size: 0.7rem;
+    }
+}

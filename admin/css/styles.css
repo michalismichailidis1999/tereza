@@ -1,0 +1,66 @@
+.error-message{
+    width: 75%;
+    padding: 15px;
+    font-size: 1.1rem;
+    margin: 20px 0;
+    color: #333;
+}
+
+.dashboard-container{
+    width: calc(100vw - 200px);
+    margin-left: 200px;
+}
+
+.sidenav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    background: var(--main-color);
+    color: white;
+}
+
+.sidenav ul{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sidenav ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    width: 100%;
+    padding: 5px;
+}
+
+.sidenav ul li:hover{
+    cursor: pointer;
+    background: var(--main-color-hover);
+}
+
+.sidenav ul li i{
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
+.go-back{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: var(--dark-color);
+}
+
+.go-back i{
+    margin-right: 7px;
+}

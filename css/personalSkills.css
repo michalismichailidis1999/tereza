@@ -1,0 +1,32 @@
+.personal-skills{
+    background: var(--main-color);
+    color: white;
+    padding: 40px 0;
+}
+
+.personal-skills h2{
+    padding-left: 40px;
+    font-size: 2.4rem;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.personal-skills-list{
+    font-weight: 300;
+    font-size: 1.5rem;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.personal-skills-list:last-child{
+    margin-bottom: 0;
+}
+
+.personal-skills-list p{
+    min-width: fit-content;
+}
+
+.personal-skills-list-small{
+    display: none;
+}

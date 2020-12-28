@@ -1,0 +1,75 @@
+@media(max-width: 1300px){
+    .personal-skills{
+        padding: 30px 0;
+    }
+    
+    .personal-skills h2{
+        font-size: 2.1rem;
+    }
+    
+    .personal-skills-list{
+        font-size: 1.2rem;
+    }
+    
+}
+
+@media(max-width: 1000px){
+    .personal-skills{
+        padding: 30px 0;
+    }
+    
+    .personal-skills h2{
+        font-size: 1.8rem;
+    }
+    
+    .personal-skills-list{
+        font-size: .95rem;
+    }
+    
+}
+
+@media(max-width: 760px){
+    .personal-skills h2{
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .personal-skills-list{
+        display: none;
+    }
+
+    .personal-skills-list-small{
+        display: block;
+    }
+
+    .personal-skills-list-small p{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .personal-skills-list-small p:last-child{
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width: 540px){
+    .personal-skills h2{
+        font-size: 1.4rem;
+        margin-bottom: 25px;
+    }
+
+    .personal-skills-list-small p{
+        font-size: .8rem;
+    }
+}
+
+@media(max-width: 380px){
+    .personal-skills h2{
+        font-size: 1.1rem;
+    }
+
+    .personal-skills-list-small p{
+        font-size: .7rem;
+    }
+}

@@ -1,0 +1,187 @@
+@media(max-width: 1750px){
+    .about-me-container h2{
+        font-size: 2.2rem;
+    }
+    
+    .about-me-container h4{
+        font-size: 1.7rem;
+    }
+    
+    .about-me-container p{
+        font-size: 1rem;
+        letter-spacing: .4px;
+        line-height: 2.1;
+    }
+    
+    .about-me-container div{
+        font-size: 1rem;
+    }
+
+    .my-image{
+        width: 500px;
+        top: -20px;
+        left: 10%;
+    }
+}
+
+@media(max-width: 1475px){
+    .my-image{
+        width: 450px;
+        top: 20px;
+        left: 8%;
+    }
+}
+
+@media(max-width: 1300px){
+    .about-me-container h2{
+        font-size: 1.9rem;
+    }
+    
+    .about-me-container h4{
+        font-size: 1.4rem;
+    }
+    
+    .about-me-container p{
+        font-size: .9rem;
+        letter-spacing: .2px;
+        line-height: 1.8;
+    }
+    
+    .about-me-container div{
+        font-size: 0.9rem;
+    }
+
+    .my-image{
+        width: 350px;
+        top: 0px;
+        left: 8%;
+    }
+}
+
+@media(max-width: 1085px){
+    .about-me{
+        margin-top: 100px;
+    }
+}
+
+@media(max-width: 1025px){
+    .about-me-container{
+        width: 60%;
+    }
+    .my-image{
+        width: 250px;
+        top: 0px;
+        left: 6%;
+    }
+}
+
+@media(max-width: 900px){
+    .about-me-container{
+        width: 65%;
+    }
+
+    .my-image{
+        width: 200px;
+        top: 0px;
+        left: 6%;
+    } 
+
+    .about-me{
+        margin-top: 70px;
+    }
+    
+}
+
+@media(max-width: 850px){
+    .my-image{
+        width: 180px;
+        top: 0px;
+        left: 5%;
+    }
+}
+
+@media(max-width: 750px){
+    .about-me{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-me-container{
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    .my-image{
+        display: none;
+    } 
+}
+
+@media(max-width: 650px){
+    .about-me-container h2{
+        font-size: 1.5rem;
+    }
+    
+    .about-me-container h4{
+        font-size: 1.2rem;
+    }
+    
+    .about-me-container p{
+        font-size: .8rem;
+    }
+    
+    .about-me-container div{
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width: 515px){
+    .about-me-container h2{
+        font-size: 1.2rem;
+    }
+    
+    .about-me-container h4{
+        font-size: 1rem;
+    }
+    
+    .about-me-container p{
+        font-size: .7rem;
+    }
+    
+    .about-me-container div{
+        font-size: 0.7rem;
+    }
+}
+
+@media(max-width: 420px){
+    .about-me-container h2{
+        margin-bottom: 20px;
+    }
+
+    .about-me-container h4{
+        margin-bottom: 20px;
+    }
+
+    .about-me-container p{
+        margin-bottom: 20px;
+    }
+
+    .about-me-container>div{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-me-container p{
+        margin-bottom: 20px;
+    }
+
+    .about-me-container div span{
+        margin-bottom: 10px;
+    }
+
+    .about-me-container>div span:last-child{
+        margin-bottom: 0;
+    }
+}
