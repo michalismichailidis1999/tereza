@@ -1,6 +1,6 @@
 <?php
 
-    defined("ROOT_DIRECTORY") ? null : define("ROOT_DIRECTORY", "/projects/Tereza");
+    defined("ROOT_DIRECTORY") ? null : define("ROOT_DIRECTORY", "https://terezamichailidou.com");
 
     // MySQL constants
     defined("DB_HOST") ? null : define("DB_HOST", "localhost");
