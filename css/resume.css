@@ -2,6 +2,14 @@
     margin-top: 40px;
 }
 
+.resume-container p{
+    font-weight: lighter;
+    letter-spacing: .2px;
+    line-height: 1.6;
+    color: var(--dark-color);
+    font-size: 1.2rem;
+}
+
 .resume-title{
     width: fit-content;
     padding: 5px;
@@ -45,7 +53,7 @@
         font-size: 1.2rem;
     }
     
-    .resume-container ul{
+    .resume-container ul, .resume-container p{
         font-size: 1rem;
     }
 }
@@ -59,7 +67,7 @@
         font-size: .9rem;
     }
     
-    .resume-container ul{
+    .resume-container ul, .resume-container p{
         font-size: .8rem;
     }
 }

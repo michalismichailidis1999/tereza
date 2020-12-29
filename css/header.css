@@ -53,7 +53,7 @@ header{
 .my-image{
     position: absolute;
     width: 550px;
-    top: -50px;
+    top: 10px;
     left: 10%;
 }
 

@@ -109,6 +109,9 @@
 
         <div class="my-contacts">
             <p class="contact">
+                <i class="fas fa-envelope"></i> terezamichailidou@gmail.com
+            </p>
+            <p class="contact">
                 <i class="fas fa-envelope"></i> terezamichailidou@outlook.com
             </p>
             <p class="contact">
@@ -120,8 +123,8 @@
                 </a>
             </p>
             <p class="contact">
-                <a href="https://bit.ly/2IOedjw" target="_blank">
-                    <i class="fab fa-facebook"></i> https://bit.ly/2IOedjw
+                <a href="https://www.facebook.com/terezasmichailidou" target="_blank">
+                    <i class="fab fa-facebook"></i> https://bit.ly/2KJggXB
                 </a>
             </p>
             <p class="contact">

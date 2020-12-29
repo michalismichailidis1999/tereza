@@ -19,7 +19,6 @@
 
     .my-image{
         width: 500px;
-        top: -20px;
         left: 10%;
     }
 }
@@ -27,8 +26,6 @@
 @media(max-width: 1475px){
     .my-image{
         width: 450px;
-        top: 20px;
-        left: 8%;
     }
 }
 
@@ -53,8 +50,6 @@
 
     .my-image{
         width: 350px;
-        top: 0px;
-        left: 8%;
     }
 }
 
@@ -70,7 +65,6 @@
     }
     .my-image{
         width: 250px;
-        top: 0px;
         left: 6%;
     }
 }
@@ -82,8 +76,6 @@
 
     .my-image{
         width: 200px;
-        top: 0px;
-        left: 6%;
     } 
 
     .about-me{
@@ -95,7 +87,6 @@
 @media(max-width: 850px){
     .my-image{
         width: 180px;
-        top: 0px;
         left: 5%;
     }
 }
